@@ -18,7 +18,7 @@ public class StringGenerateHandler extends AbstractGenerateHandler implements Cl
 
     private String generateRandomString() {
         StringBuilder stringBuilder = new StringBuilder();
-        String randomString = "汽车超人";
+        String randomString = "我爱中国";
         for (int i = 0; i < 5; i++) {
             stringBuilder.append(randomString.toCharArray()[new Random().nextInt(randomString.toCharArray().length)]);
         }
